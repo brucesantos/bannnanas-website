@@ -9,18 +9,12 @@
 	],
 "creatorBuild": "33081",
 "files": {
-	"/build": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "/build/build",
-		"oF": 0
-		},
 	"/CNAME": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/build/CNAME",
+		"oAP": "/docs/CNAME",
 		"oF": 0
 		},
 	"/css/master.scss": {
@@ -31,17 +25,23 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 0,
-		"oAP": "/build/css/master.css",
+		"oAP": "/docs/css/master.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
+		},
+	"/docs": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "/docs/docs",
+		"oF": 0
 		},
 	"/index.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/build/index.html",
+		"oAP": "/docs/index.html",
 		"oF": 0
 		},
 	"/js/master.js": {
@@ -50,7 +50,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/build/js/master-min.js",
+		"oAP": "/docs/js/master-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -66,7 +66,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-ucla",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 630849644.09357297
+	"lastBuiltDate": 630849877.56728697
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -361,7 +361,7 @@
 	"browserRefreshDelay": 0,
 	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
 	"buildFolderActive": 1,
-	"buildFolderName": "build",
+	"buildFolderName": "docs",
 	"cleanBuild": 1,
 	"coffeeLintFlags2": {
 		"arrow_spacing": {
@@ -2382,7 +2382,7 @@
 	"uglifyReservedNamesString": "$,exports,require",
 	"webpPresets": {
 		},
-	"websiteRelativeRoot": "build"
+	"websiteRelativeRoot": "docs"
 	},
 "settingsFileVersion": "3"
 }
