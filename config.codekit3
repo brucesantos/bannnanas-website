@@ -66,7 +66,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-ucla",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 630452744.94915295
+	"lastBuiltDate": 630849644.09357297
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -1473,7 +1473,7 @@
 		},
 	"esLintSourceType": 0,
 	"externalServerAddress": "http://localhost:8888",
-	"gitIgnoreBuildFolder": 1,
+	"gitIgnoreBuildFolder": 0,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
 	"jsHintFlags2": {
